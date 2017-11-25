@@ -123,22 +123,34 @@ header {
 
 /* elements */
 
+#sectionspace{
+    display:inline-block;
+    margin-top:100px;
+    vertical-align:top;
+}
+
 #ElmFirst{
     width: 700px;
     height: 125px;
     margin: 0 auto;
     margin-top: 0px;
     background-color: #62c462;
-    margin-left:auto;
+    margin-right: 25px;
+    float: right;
+
 }
+
 #ElmSecond{
     width: 700px;
     height: 200px;
     margin: 0 auto;
     margin-top: 26px;
     background-color: #62c462;
-    margin-left:auto;
+    margin-right: 25px;
+    float: right;
+
 }
+
 #ElmThird{
     width: 185px;
     height: 125px;
@@ -146,6 +158,6 @@ header {
     margin-top: 29px;
     background-color: #62c462;
     margin-right: 25px;
-    margin-left:auto;
+
     /* git shits*/
 }
