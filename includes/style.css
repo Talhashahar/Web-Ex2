@@ -1,0 +1,150 @@
+
+*{margin: 0 ; padding: 0}
+
+header, section, main, nav, footer, article{ display: block;}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 698px;
+}
+
+main{
+    width: 1000px;
+    height: 695px;
+    display:block;
+}
+
+body{
+    width: 1280px;
+    margin: auto;
+    display:block;
+}
+
+
+header {
+    width: 1000px;
+    height: 190px;
+    background: #d6d6d6;
+    position: relative;
+}
+
+.logo{
+    background: url("../images/logo.png") center no-repeat;
+    width: 106px;
+    height: 104px;
+    position: absolute;
+    left: 50%;
+    top : 20%;
+
+}
+
+/* first layout css */
+
+#layoutFirst main{
+    display:block;
+}
+
+#layoutFirst nav{
+    width:100%;
+    height:61px;
+    background: #337ab7;
+    display:block;
+}
+
+#layoutFirst nav ul{
+     margin:0px;
+     padding:0px;
+     margin-left:45px;
+    list-style-type: none;
+}
+
+#layoutFirst nav ul li{
+    float: left;
+}
+
+#layoutFirst nav a{
+    text-decoration: none;
+    color:#ebffff;
+    font-family: "Arial";
+    display:inline-block;
+}
+
+#layoutFirst nav li > a{
+    margin:20px 85px;
+}
+
+#layoutFirst nav span a{
+    background-color:#003748;
+    color:#ffffff;
+    margin:10px auto;
+    padding: 10px 85px;
+}
+
+#layoutFirst aside{
+    display:inline-block;
+    background-color:#eeeeee;
+    width:245px;
+    height:695px;
+    margin-bottom:-4px;
+    margin-left:-4px;
+    float : right;
+}
+
+
+#layoutFirst aside p{
+    width:185px;
+    height:125px;
+    position:relative;
+    top:265px;
+    margin-right:10px;
+    background-color:#62c462;
+    float : right;
+}
+
+
+#layoutFirst footer{
+    display:block;
+    height:50px;
+    width:100%;
+    background-color:#d6d6d6;
+}
+
+
+
+
+
+
+
+/* elements */
+
+#ElmFirst{
+    width: 700px;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #62c462;
+    margin-left:auto;
+}
+#ElmSecond{
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 26px;
+    background-color: #62c462;
+    margin-left:auto;
+}
+#ElmThird{
+    width: 185px;
+    height: 125px;
+    float: right;
+    margin-top: 29px;
+    background-color: #62c462;
+    margin-right: 25px;
+    margin-left:auto;
+}
