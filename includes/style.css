@@ -107,11 +107,13 @@ header {
 }
 
 
-#layoutFirst footer{
+footer{
     display:block;
     height:50px;
-    width:100%;
+    width:1000px;
     background-color:#d6d6d6;
+    position: fixed;
+    bottom: 0px;
 }
 
 
@@ -174,7 +176,7 @@ header {
 }
 
 #ElmThird_2{
-    width: 187px;
+    width: 189px;
     height: 125px;
     float: left;
     margin-top: 29px;
@@ -183,11 +185,13 @@ header {
 }
 
 #ElmFourth_2{
-    width: 187px;
+    width: 189px;
     height: 387px;
-    margin-left: 29px;
-    border: dotted;
+    /*margin-left: 29px;*/
     background-color: #62c462;
+    position: absolute;
+    top: 565px;
+    left: 588px;
     float: left;
 }
 
