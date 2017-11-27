@@ -16,8 +16,12 @@ a {
 
 main{
     width: 1000px;
-    height: 695px;
+    height: 579px;
     display:block;
+}
+
+main section{
+    margin-top: 116px;
 }
 
 body{
@@ -112,8 +116,6 @@ header {
     display:block;
     height:50px;
     width:100%;
-    position: fixed;
-    top : 950px;
     background-color:#d6d6d6;
 }
 
