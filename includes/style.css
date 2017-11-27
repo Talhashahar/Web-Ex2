@@ -83,12 +83,7 @@ header {
     margin:20px 85px;
 }
 
-#layoutFirst nav span a{
-    background-color:#003748;
-    color:#ffffff;
-    margin:10px auto;
-    padding: 10px 85px;
-}
+
 
 #layoutFirst aside{
     display:inline-block;
@@ -120,11 +115,6 @@ header {
 }
 
 
-
-
-
-
-
 /* elements */
 
 #sectionspace{
@@ -136,7 +126,6 @@ header {
 #ElmFirst{
     width: 700px;
     height: 125px;
-    margin: 0 auto;
     margin-top: 0px;
     background-color: #62c462;
     margin-right: 25px;
@@ -147,7 +136,6 @@ header {
 #ElmSecond{
     width: 700px;
     height: 200px;
-    margin: 0 auto;
     margin-top: 26px;
     background-color: #62c462;
     margin-right: 25px;
@@ -164,4 +152,95 @@ header {
     margin-right: 25px;
 
     /* git shits*/
+}
+
+
+/* second layout css */
+
+#ElmFirst_2{
+    width: 189px;
+    height: 512px;
+    background-color: #62c462;
+    margin-left: 5px;
+    float: left;
+}
+
+#ElmSecond_2{
+    width: 189px;
+    height: 325px;
+    margin-left: 28px;
+    background-color: #62c462;
+    float: left;
+}
+
+#ElmThird_2{
+    width: 187px;
+    height: 125px;
+    float: left;
+    margin-top: 29px;
+    background-color: #62c462;
+    margin-left: 28px;
+}
+
+#ElmFourth_2{
+    width: 187px;
+    height: 387px;
+    margin-left: 29px;
+    border: dotted;
+    background-color: #62c462;
+    float: left;
+}
+
+#layoutSecond nav{
+    float: left;
+    width: 146px;
+    height: 758px;
+    background: #337ab7;
+}
+
+#layoutSecond nav ul{
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+}
+
+#layoutSecond nav ul li{
+    float: left;
+}
+
+#layoutSecond nav a{
+    text-decoration: none;
+    width: 146px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color:#ebffff;
+    font-family: "Arial";
+    display:inline-block;
+}
+
+#layoutSecond aside{
+    display:inline-block;
+    background-color:#eeeeee;
+    width:220px;
+    height:758px;
+    margin-bottom:px;
+    margin-left:px;
+    float : left;
+}
+
+
+#layoutSecond aside p{
+    width:76px;
+    height:78px;
+    position:relative;
+    top:265px;
+    left : 11px;
+    margin-right:10px;
+    background-color:#62c462;
+    float : left;
+}
+
+#layoutSecond main section{
+    margin-top: 24px;
 }
