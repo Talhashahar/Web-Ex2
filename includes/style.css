@@ -29,7 +29,7 @@ body{
 
 header {
     width: 1000px;
-    height: 190px;
+    height: 193px;
     background: #d6d6d6;
     position: relative;
 }
@@ -39,7 +39,7 @@ header {
     width: 106px;
     height: 104px;
     position: absolute;
-    left: 50%;
+    left: 44.7%;
     top : 20%;
 
 }
@@ -112,6 +112,8 @@ header {
     display:block;
     height:50px;
     width:100%;
+    position: fixed;
+    top : 950px;
     background-color:#d6d6d6;
 }
 
