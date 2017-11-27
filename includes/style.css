@@ -3,7 +3,7 @@
 
 header, section, main, nav, footer, article{ display: block;}
 
-a {
+a{
     text-decoration: none;
 }
 
@@ -48,6 +48,12 @@ header {
 
 }
 
+.selected {
+    background-color: #003748;
+    text-decoration: none;
+    color : #ffffff;
+}
+
 /* first layout css */
 
 #layoutFirst main{
@@ -62,14 +68,15 @@ header {
 }
 
 #layoutFirst nav ul{
-     margin:0px;
-     padding:0px;
      margin-left:45px;
     list-style-type: none;
 }
 
 #layoutFirst nav ul li{
     float: left;
+    margin-left: -10px;
+    margin-top: 11px;
+    margin-right: 50px;
 }
 
 #layoutFirst nav a{
@@ -77,12 +84,8 @@ header {
     color:#ebffff;
     font-family: "Arial";
     display:inline-block;
+    padding: 10px 70px;
 }
-
-#layoutFirst nav li > a{
-    margin:20px 85px;
-}
-
 
 
 #layoutFirst aside{
@@ -108,7 +111,6 @@ header {
 
 
 footer{
-    display:block;
     height:50px;
     width:1000px;
     background-color:#d6d6d6;
@@ -203,8 +205,6 @@ footer{
 }
 
 #layoutSecond nav ul{
-    margin:0px;
-    padding:0px;
     list-style-type: none;
 }
 
@@ -228,8 +228,6 @@ footer{
     background-color:#eeeeee;
     width:220px;
     height:758px;
-    margin-bottom:px;
-    margin-left:px;
     float : left;
 }
 
