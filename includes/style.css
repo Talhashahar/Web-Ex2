@@ -319,7 +319,7 @@ footer{
     margin-top: 0px;
 }
 #layoutThird main section article{
-    width: 333px;
+    width: 50%;
     height: 333px;
     float:left;
     font-size: 150px;
@@ -334,4 +334,18 @@ footer{
     width: 104px;
     height: 106px;
     margin: 32%;
+}
+
+@media screen and (min-width: 1024px) {
+    #layoutThird main section article{
+        width: 33.333%;
+        height: 333px;
+        float:left;
+        font-size: 150px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 333px;
+    }
+
 }
